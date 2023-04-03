@@ -1,44 +1,6 @@
 body {
     background-color: #f5f7fa;
     font-family: 'Montserrat', sans-serif;
-    scroll-behavior: smooth;
-}
-
-#navbar {
-    margin: 0;
-    padding: 5px 0;
-    width: 100%;
-    height: 50px;
-    position: sticky;
-    top: 0;
-    left: 0;
-    background-color: white;
-    box-shadow: 0 10px 10px 5px rgba(0,0,0,0.1);
-}
-
-#navbar ul{
-    display: flex;
-    margin: 10px auto 10px auto;
-    width: 75%;
-    justify-content: space-between;
-    list-style: none;
-}
-
-#navbar ul li a {
-    margin-left: 3px;
-    margin-right: 3px;
-    color: black;
-    opacity: 0.7;
-    font-size: 1.2rem;
-    font-family: "Poppins",Arial, Helvetica, sans-serif;
-    text-decoration: none;
-}
-
-#navbar ul li a:hover {
-    color: green;
-    opacity: 1;
-    text-decoration: underline;
-    transition: all 1s;
 }
 
 .wrapper {
@@ -54,6 +16,7 @@ body {
 aside {
     width: 370px;
     background: #1E2939;
+    
 }
 
 .photo {
@@ -71,7 +34,7 @@ aside {
 }
 
 .bold {
-    font-weight: 700;
+    font-weight: 700px;
 }
 
 .list-secondary {
@@ -103,7 +66,7 @@ aside {
 }
 
 main {
-    padding: 102px 88px 102px 88px;
+    padding: 102px 88px 20px 88px;
     
 }
 
@@ -132,7 +95,7 @@ h1 {
 }
 
 .projects {
-    width: 485px;
+    width: 570px;
     margin-bottom: 51px;
 }
 
@@ -140,7 +103,7 @@ h1 {
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
-    color: #000000;
+    color: #c00d0d;
     padding-left: 0;
     list-style-position: inside;
 }
@@ -186,6 +149,7 @@ h1 {
     color: #595959;
     padding-left: 0;
     list-style-position: inside;
+    ;
 }
 
 .school {
@@ -221,4 +185,21 @@ h1 {
 .work-manager2 {
     width: 525px;
     margin-bottom: 43px;
+}
+
+#clause {
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.custom-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
